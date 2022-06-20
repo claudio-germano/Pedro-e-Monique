@@ -1,0 +1,232 @@
+.navbar {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: hsla(0, 0%, 100%, 0);
+  color: #fff;
+}
+
+.container-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 0px;
+  margin-left: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.nav-link {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.section {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 4;
+  height: 100vh;
+  box-shadow: 0 0 50px 0 #000;
+}
+
+.section._1st {
+  position: relative;
+  z-index: 0;
+  display: block;
+}
+
+.section._2nd {
+  position: relative;
+  z-index: 0;
+  display: block;
+}
+
+.section._3rd {
+  position: relative;
+  z-index: 0;
+  display: block;
+  height: 100vh;
+}
+
+.flex {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.flex.flextimeline {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  background-image: url('../images/image3-min.jpeg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.flex._2 {
+  background-image: url('../images/image1.jpeg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.flex._1 {
+  background-image: url('../images/image0pb.jpeg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.flex._3 {
+  background-image: url('../images/image6pb.jpeg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.flex._4 {
+  background-image: url('../images/image6.jpeg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.section-head {
+  position: relative;
+  z-index: 2;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  color: hsla(0, 0%, 100%, 0.73);
+  font-size: 4vw;
+  text-align: center;
+  letter-spacing: 10px;
+  text-transform: capitalize;
+}
+
+.box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 120px;
+  height: 120px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.timerwrapper {
+  position: relative;
+  z-index: 3;
+}
+
+.clock-number {
+  font-size: 6rem;
+  line-height: 70px;
+  font-weight: 600;
+}
+
+.js-clock {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.clock-label {
+  margin-top: 10px;
+  margin-right: -5px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.image {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: none;
+}
+
+@media screen and (max-width: 479px) {
+  .box {
+    margin-bottom: 10px;
+  }
+
+  .js-clock {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
